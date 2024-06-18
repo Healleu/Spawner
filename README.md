@@ -1,0 +1,2 @@
+# Spawner
+Godot spawner plugin
