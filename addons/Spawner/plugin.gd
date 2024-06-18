@@ -19,7 +19,7 @@ func _enter_tree() -> void :
 	# Initialize
 	add_custom_type("EnemyQuantity", "Resource", preload("2D/EnemyQuantity.gd"), null)
 	add_custom_type("Spawner2D", "Node2D", preload("2D/Spawner2D.gd"), preload("2D/Spawner2D.svg"))
-	print("Basic Spawner 2D initialized!")
+	print("Basic Spawner 2D v" + _version + " initialized!")
 	return
 
 

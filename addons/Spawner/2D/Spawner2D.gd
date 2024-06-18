@@ -55,7 +55,7 @@ enum SPAWNER_MODE{QUANTITY, TIMER_DELAY, WAVE}
 @export var _pathfollow_loop : bool = false
 @export var _pathfollow_rotates : bool = false
 @export_subgroup("Area")
-@export var _spawning_area : Shape2D :
+@export var _spawning_area : CircleShape2D :
 	get:
 		return _spawning_area
 	set(value):
